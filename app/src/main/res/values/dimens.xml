@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Official font sizes from zeplin style guide for retailer app v2 -->
+    <dimen name="small_font">10sp</dimen>
+    <dimen name="medium_font">14sp</dimen>
+    <dimen name="large_font">18sp</dimen>
+    <dimen name="big_large_font">40sp</dimen>
+    <!-- fonts size -->
+
+
+</resources>

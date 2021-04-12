@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Custom Blue Buttons  -->
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+    <style name="BigBlueButton">
+        <item name="android:layout_height">56dp</item>
+        <item name="android:textSize">@dimen/medium_font</item>
+        <item name="lineHeight">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+    </style>
+
+</resources>
