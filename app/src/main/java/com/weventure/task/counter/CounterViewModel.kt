@@ -14,11 +14,14 @@ class CounterViewModel() : BaseViewModel() {
     var timer = MutableLiveData<String>()
     var timerCountDown: CountDownTimer? = null
 
+    var passedSeconds = 0
     fun runTimer(seconds: Int) {
         var date = addTime(seconds)
+        passedSeconds = seconds
         timerCountDown = object : CountDownTimer(date!!.time, 1000) {
             override fun onTick(millisUntilFinished: Long) {
                 timer.postValue(getDifferenceTime(date!!.time))
+                passedSeconds --
 
             }
 
